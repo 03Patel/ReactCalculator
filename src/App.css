@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+
+.nav{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 600px;
+}
+
+.inputs{
+  height: 50px;
+  margin-bottom: 30px;
+  background-color:white;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: black;
+
+
+}
+
+.calculator-container {
+  background-color: white;
+  transition: background-color 0.5s ease-in-out;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-container.active-bg {
+  background-color: #bfdbfe; /* Tailwind's blue-200 equivalent */
+}
